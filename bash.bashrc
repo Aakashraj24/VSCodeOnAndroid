@@ -69,7 +69,7 @@ end_cr="37" #color of prompt end
 dir_cr="36" #color of current directory
 
 PS1='\[\033[0;${bar_cr}m\]┌──(\[\033[1;${name_cr}m\]${user_name}${sym}\h\[\033[0;${bar_cr}m\])-[\[\033[0;${dir_cr}m\]\w\[\033[0;${bar_cr}m\]]
-\[\033[0;${bar_cr}m\]└─\[\033[1;${end_cr}m\]\=>\[\033[0m\] '
+\[\033[0;${bar_cr}m\]└─\[\033[1;${end_cr}m\]=>\[\033[0m\] '
 
 #### Aliases ##########################
 
